@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "vi">
+	<head>
+		<title>Trang số 1</title>
+		<meta charset = "utf-8">
+		<style>
+			div.menu{
+				width:200px;
+			}
+			div.menu a{
+				color:green;/*màu chữ*/
+				display:block;/*hiển thị dạng block*/
+				border:1px solid red;/*thêm border độ dầy 1 pixel, loại nét liền, màu viền đỏ*/
+				padding:8px;/*Thêm khoảng trống - space - từ văn bản đến border của element*/
+				text-decoration:none;/*Gỡ bỏ gạch chân*/
+				margin:5px;/*KHoảng cách giữa các element*/
+				text-align:center;/*Canh lề giữa cho văn bản*/
+			}
+			div.menu a:hover{
+				background-color:pink;/*màu nền*/
+				text-decoration:underline;/*Gạch chân cho văn bản*/
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Trang số 1</h1>
+		<div class = "menu">
+			<a href = "../index.html" target = "_blank">Trang chủ</a>
+			<a href = "page2.html" target = "_blank">Trang số 2</a>
+			<a href = "page3.html" target = "_blank">Trang số 3</a>
+		</div>
+		<br>
+		<button onclick = "document.location='../index.html';">
+			Trang chủ
+		</button>
+		<br>
+		<a href = "https://plantsguru.com/products/rose-pink?srsltid=AfmBOorhg1Iizr6Ub771gAH-6mDlNZfmjM_i37fsu0SNMGFlQCHJid7h">
+			<img style = "width:100px; height:100px;" src = "../assets/images/rose.avif" alt = "Hoa hồng">
+		</a>
+	</body>
+</html>
